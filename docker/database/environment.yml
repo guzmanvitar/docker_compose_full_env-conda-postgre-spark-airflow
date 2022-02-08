@@ -1,0 +1,17 @@
+name: prod  # no importa si ya existe porque va a ser instalado en un prefijo local
+
+dependencies:
+  - python
+  - pandas
+  - sqlalchemy
+  - numpy
+  - psycopg2  # para la base progre
+  - typer
+
+
+# comandos utiles:
+
+# conda env create --prefix ./env -f environment.yml
+# conda activate ./env
+# conda env update --prefix ./env -f environment.yml --prune
+# conda env export --from-history -f environment.yml
